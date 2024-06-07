@@ -11,7 +11,7 @@ export default function DrawerLayout() {
                     options={{
                         drawerLabel: 'Home',
                         title: 'Home',
-                        drawerIcon: (color) => <Ionicons name="home-outline" size={24} color={color} />,
+                        drawerIcon: ({color}) => <Ionicons name="home-outline" size={24} color={color} />,
 
                     }}
                 />
@@ -20,7 +20,7 @@ export default function DrawerLayout() {
                     options={{
                         drawerLabel: 'Ride',
                         title: 'Ride & Food',
-                        drawerIcon: (color) => <MaterialIcons name="directions-bike" size={24} color={color} />,
+                        drawerIcon: ({color}) => <MaterialIcons name="directions-bike" size={24} color={color} />,
                     }}
                 />
             </Drawer>

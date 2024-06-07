@@ -59,14 +59,13 @@ const styles = StyleSheet.create({
   },
   card: {
     backgroundColor: "#e4e4e4",
-    padding: 12,
+    padding: 15,
     borderRadius: 20,
   },
   cardTextCon: {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    gap: 5,
   },
   cardText: {
     fontSize: 20,
